@@ -17,6 +17,8 @@ namespace ClassPracTechAcademy
 
             MathStuff.SomeMath(Num1: 50, Num2: 100);
 
+
+            Console.ReadLine();
         }
     }
 }
