@@ -18,6 +18,9 @@ namespace AbstractPracTechAcademy
             Charles.SayName();
 
 
+            IQuittable quiting = new Employee();
+            quiting.Quit();
+
             Console.ReadLine();
         }
     }

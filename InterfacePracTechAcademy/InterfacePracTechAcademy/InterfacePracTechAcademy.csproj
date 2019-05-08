@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9F630EEE-6159-4A9A-AA40-4CF4E30C4AF5}</ProjectGuid>
+    <ProjectGuid>{6424006D-AD4C-49C8-9408-6F2EF845113C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractPracTechAcademy</RootNamespace>
-    <AssemblyName>AbstractPracTechAcademy</AssemblyName>
+    <RootNamespace>InterfacePracTechAcademy</RootNamespace>
+    <AssemblyName>InterfacePracTechAcademy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
