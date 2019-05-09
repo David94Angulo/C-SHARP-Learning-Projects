@@ -11,6 +11,7 @@ namespace People
         static void Main(string[] args)
         {
 
+
             Employee Manager = new Employee();
             Manager.FirstName = "Sample";
             Manager.LastName = "Student";
@@ -40,11 +41,48 @@ namespace People
 
             else
             {
-                Console.WriteLine(Hired.FirstName +" is NOT the Employee of the month! :(");
+                Console.WriteLine(Hired.FirstName + " is NOT the Employee of the month! :(");
             }
 
 
             Console.ReadLine();
+
+
+            //Employee<int> IntList = new Employee<int>();
+            //Employee<string> List = new Employee<string>();
+            //IntList.Things = new List<int>();
+            //List.Things = new List<string>();
+
+
+            //IntList.Things.Add(100);
+            //IntList.Things.Add(1000);
+            //IntList.Things.Add(10000);
+            //IntList.Things.Add(100000);
+            //IntList.Things.Add(1000000);
+            ////
+            //List.Things.Add("Stacy");
+            //List.Things.Add("Paul");
+            //List.Things.Add("Pat");
+
+
+
+
+
+            //foreach (string i in List.Things)
+            //{
+
+            //    Console.WriteLine(i + " ");
+
+            //}
+
+            //foreach (int i in IntList.Things)
+            //{
+
+            //    Console.WriteLine(i + " ");
+
+            //}
+
+
 
         }
     }
