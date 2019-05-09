@@ -20,5 +20,9 @@ namespace AbstractPracTechAcademy
             Console.WriteLine("I am destined to follow me dreams.Those dreams promise me a brighter futre than this dump! I quit!");
             Console.ReadLine();
         }
+
+        
+
+
     }
 }

@@ -9,7 +9,17 @@ namespace People
    public class Employee : Person
     {
 
-        int ID { get; set; }
+       public int ID { get; set; }
+
+        public static bool operator==(Employee Emp1, Employee Emp2)
+        {
+            return Emp1.ID == Emp2.ID; 
+        }
+
+        public static bool operator !=(Employee Emp1, Employee Emp2)
+        {
+            return Emp1.ID == Emp2.ID ;
+        }
 
     }
 }
