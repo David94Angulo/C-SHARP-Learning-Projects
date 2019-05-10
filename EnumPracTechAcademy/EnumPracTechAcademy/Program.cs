@@ -20,6 +20,11 @@ namespace EnumPracTechAcademy
             Sunday
         }
 
+        public struct Number
+            {
+            public decimal Amount;
+
+            }
         static void Main(string[] args)
         {
            
@@ -38,8 +43,13 @@ namespace EnumPracTechAcademy
 
                 Console.WriteLine("Please enter an actual day of the week");
             }
-          
-        
+
+
+            Number NewNumber;
+            NewNumber.Amount = 27.7m;
+
+            Console.WriteLine(NewNumber.Amount);
+
             Console.ReadLine();
         }
 
