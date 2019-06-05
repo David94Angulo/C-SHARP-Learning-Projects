@@ -1,0 +1,67 @@
+﻿@using CarInsuranceQuote.ViewModels
+@using CarInsuranceQuote.Models
+@model List<SubmissionVM>
+
+    <div class="container">
+        <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+
+            <div class="card-header text-center">
+                <h5 class="m-0">All Quotes</h5>
+            </div>
+
+
+            <div class="card-body">
+                @foreach (var sub in Model)
+                {
+
+                    using (Html.BeginForm(FormMethod.Post))
+                    {
+
+
+
+                        <div class="container">
+                                <div class="row table-bordered">
+                                    <div class="col-sm table-bordered">
+                                        <p style="font-size: x-large"> Quote: @sub.QuoteVm </p>
+                                    </div>
+                                    <div class="col-sm">
+                                        <p style="font-size: larger">First Name: @sub.FirstNameVm</p>
+                                    </div>
+                                    <div class="col-sm">
+                                        <p style="font-size: larger">Last Name: @sub.LastNameVm</p>
+                                    </div>
+
+                                    <div class="col-sm">
+                                        <p style="font-size: larger"> Email Address: @sub.EmailAddressVm</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+
+
+
+                        @*<div class="row">
+                    <div class="col">
+                        @sub.QuoteVm
+                    </div>
+
+                    <div class="col">
+                        @sub.FirstNameVm
+                    </div>
+
+                    <div class="col">
+                        @sub.LastNameVm
+                    </div>
+
+                    <div class="col">
+                        @sub.EmailAddressVm
+                    </div>
+                </div>*@
+                    }
+                }
+
+            </div>
+        </div>
+    </div>
